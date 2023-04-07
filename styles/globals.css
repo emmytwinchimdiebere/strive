@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*>*{
+    font-family: 'Poppins', sans-serif;
+}
+
+button[disabled]{
+cursor: not-allowed;
+
+}
